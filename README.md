@@ -161,7 +161,7 @@ Please respond ASAP.
 
 ## Sample Output – JSON Log
 
-![Logs.json Output](outputs/Images/Screenshot 2025-05-31 154726.png)
+![Logs.json Output](outputs/Images/image2.png)
 
 ---
 

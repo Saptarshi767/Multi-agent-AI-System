@@ -144,7 +144,10 @@ Please respond ASAP.
   "intent": "RFQ",
   "status": "Processed"
 }
-```
+
+![Console Log Output](outputs/Images/image.png)
+![Logs.json Output](outputs/Images/Screenshot 2025-05-31 154742.png)
+
 
 ---
 

@@ -75,7 +75,10 @@ multi_agent_ai/
 ├── memory/
 │   └── memory_store.py
 ├── outputs/
-│   └── logs.json
+│   ├── logs.json
+│   └── Images/
+│       ├── image.png
+│       └── Screenshot 2025-05-31 154726.png
 ├── utils/
 │   └── parser_utils.py
 ├── main.py
@@ -89,7 +92,7 @@ multi_agent_ai/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/Multi-agent-AI-System.git
+git clone https://github.com/Saptarshi767/Multi-agent-AI-System.git
 cd Multi-agent-AI-System
 ```
 
@@ -128,6 +131,7 @@ inputs/sample_email.txt
 ### Email Input
 
 `inputs/sample_email.txt`
+
 ```
 Hi Team,
 
@@ -136,6 +140,7 @@ Please respond ASAP.
 ```
 
 **Output:**
+
 ```json
 {
   "source": "inputs/sample_email.txt",
@@ -144,6 +149,7 @@ Please respond ASAP.
   "intent": "RFQ",
   "status": "Processed"
 }
+```
 
 ---
 
@@ -152,10 +158,10 @@ Please respond ASAP.
 ![Console Log Output](outputs/Images/image.png)
 
 ---
+
 ## Sample Output – JSON Log
 
 ![Logs.json Output](outputs/Images/Screenshot 2025-05-31 154726.png)
-
 
 ---
 

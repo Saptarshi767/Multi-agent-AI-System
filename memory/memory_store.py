@@ -1,5 +1,7 @@
 import json
 import os
+import uuid
+from datetime import datetime
 
 class MemoryStore:
     def __init__(self):
@@ -16,9 +18,14 @@ class MemoryStore:
 
     def log_event(self, event_data):
         log_key = f"log:{event_data['source']}"
+
+        # Add timestamp and unique conversation ID
+        event_data["timestamp"] = datetime.now().isoformat()
+        event_data["conversation_id"] = str(uuid.uuid4())
+
         self.save_context(log_key, event_data)
 
-        # Save to outputs/logs.json
+        # Save to logs.json
         all_logs = []
         if os.path.exists(self.log_path):
             with open(self.log_path, "r") as f:

@@ -145,7 +145,15 @@ Please respond ASAP.
   "status": "Processed"
 }
 
+---
+
+## Sample Output – Console Log
+
 ![Console Log Output](outputs/Images/image.png)
+
+---
+## Sample Output – JSON Log
+
 ![Logs.json Output](outputs/Images/Screenshot 2025-05-31 154726.png)
 
 

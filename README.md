@@ -144,7 +144,9 @@ Please respond ASAP.
   "intent": "RFQ",
   "status": "Processed"
 }
-```
+```![image](https://github.com/user-attachments/assets/96d61a23-0f9e-41b5-8940-7cb55d2f195a)
+
+![image](https://github.com/user-attachments/assets/ee6c94f9-a4a8-40d9-8629-5c6f1de2313c)
 
 ---
 
